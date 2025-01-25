@@ -1,0 +1,43 @@
+case;event;datetime;isCancelled;msgType;diagnosis;version;caseType;actRed;speciality;org:resource;closeCode;isClosed;blocked;flagD;flagC;actOrange;flagB;flagA;msgCount;state;msgCode
+A;NEW;2012-12-16 19:33:10;0;;A;;A;;A;ResA;;1;0;1;;;0;0;;In progress;
+A;FIN;2013-12-15 19:00:37;0;;A;;A;;A;ResA;A;1;0;1;;;0;0;;Closed;
+A;RELEASE;2013-12-16 03:53:38;0;;A;;A;;A;ResA;A;1;0;1;;;0;0;;Released;
+A;CODE OK;2013-12-17 12:56:29;0;;A;A;A;0;A;ResA;A;1;0;1;0;0;0;0;0.0;Released;
+A;BILLED;2013-12-19 03:44:31;0;;A;A;A;0;A;ResB;A;1;0;1;0;0;0;0;0.0;Billed;
+AA;NEW;2012-12-26 08:50:18;0;;;;B;;L;ResHA;;1;0;1;;;0;0;;In progress;
+AA;CHANGE DIAGN;2012-12-26 08:50:59;0;;CA;;B;;L;ResHA;;1;0;1;;;0;0;;In progress;
+AA;FIN;2013-02-14 21:06:33;0;;CA;;B;;L;ResA;B;1;0;1;;;0;0;;Closed;
+AA;RELEASE;2013-02-14 22:12:10;0;;CA;;B;;L;ResA;B;1;0;1;;;0;0;;Released;
+AA;CODE OK;2013-02-18 01:44:10;0;;CA;C;B;0;L;ResA;B;1;0;1;0;0;0;0;0.0;Released;
+AA;BILLED;2013-07-07 19:21:27;0;;CA;C;B;0;L;ResB;B;1;0;1;0;0;0;0;0.0;Billed;
+AAA;NEW;2013-01-26 22:56:11;0;;;;C;;K;ResJA;;1;0;0;;;0;0;;In progress;
+AAAE;NEW;2015-08-04 02:04:00;0;;T;;A;;I;ResA;;1;0;1;;;0;0;;In progress;
+AAAE;FIN;2015-12-01 20:06:35;0;;T;;A;;I;ResA;H;1;0;1;;;0;0;;Empty;
+AAF;NEW;2013-01-31 21:17:48;0;;OE;;A;;D;ResNC;;0;0;0;;;0;0;;In progress;
+AAF;DELETE;2013-04-15 09:43:06;1;;OE;;A;;D;ResYC;;0;0;0;;;0;0;;In progress;
+AAFD;NEW;2015-02-24 22:46:42;0;;PD;;C;;E;ResJA;;1;0;0;;;0;0;;In progress;
+AAFD;FIN;2015-02-24 22:48:27;0;;PD;;C;;E;ResNC;W;1;0;0;;;0;0;;Closed;
+AAFD;RELEASE;2015-02-24 22:48:59;0;;PD;;C;;E;ResNC;W;1;0;0;;;0;0;;Released;
+AAFD;CODE NOK;2015-04-22 22:55:40;0;;PD;E;C;0;E;ResIA;W;1;0;0;0;0;0;0;0.0;Released;
+AAFD;BILLED;2015-11-12 07:43:50;0;;PD;E;C;0;E;ResB;W;1;0;0;0;0;0;0;0.0;Billed;
+AAMC;NEW;2014-10-04 14:45:55;0;;;;B;;M;ResWC;;0;0;1;;;0;0;;In progress;
+AAMC;CHANGE DIAGN;2014-10-04 14:46:20;0;;IA;;B;;M;ResWC;;0;0;1;;;0;0;;In progress;
+AAMC;DELETE;2014-10-05 08:13:03;1;;IA;;B;;M;ResQA;;0;0;1;;;0;0;;In progress;
+ABBB;NEW;2013-12-23 11:43:06;0;;;;B;;C;ResGU;;1;0;1;;;0;0;;In progress;
+ABBB;CHANGE DIAGN;2013-12-23 15:37:32;0;;WB;;B;;C;ResRB;;1;0;1;;;0;0;;In progress;
+ABBB;FIN;2014-04-07 00:46:27;0;;WB;;B;;C;ResA;E;1;0;1;;;0;0;;Closed;
+ABBB;RELEASE;2014-04-20 05:59:32;0;;WB;;B;;C;ResA;E;1;0;1;;;0;0;;Released;
+ABBB;CODE OK;2014-04-20 06:59:16;0;;WB;A;B;1;C;ResA;E;1;0;1;1;0;0;0;0.0;Released;
+ABBB;BILLED;2014-06-29 11:50:35;0;;WB;A;B;1;C;ResB;E;1;0;1;1;0;0;0;0.0;Billed;
+ABBB;STORNO;2014-07-29 11:04:16;0;;WB;A;B;1;C;ResHG;E;1;0;1;1;0;0;0;0.0;Invoice rejected;
+ABBB;REJECT;2014-08-25 12:18:42;0;;WB;A;B;1;C;ResYC;E;1;0;1;1;0;0;0;0.0;Billable;
+ABBB;BILLED;2014-08-27 12:41:11;0;;WB;A;B;1;C;ResB;E;1;0;1;1;0;0;0;0.0;Billed;
+ABO;NEW;2013-04-20 11:57:20;0;;A;;A;;A;ResDB;;1;0;0;;;0;0;;In progress;
+ABO;FIN;2013-04-20 12:02:48;0;;A;;A;;A;ResDB;J;1;0;0;;;0;0;;Closed;
+ABO;RELEASE;2013-04-20 12:02:49;0;;A;;A;;A;ResDB;J;1;0;0;;;0;0;;Released;
+ABO;BILLED;2013-06-01 15:39:36;0;;A;;A;;A;ResA;J;1;0;0;;;0;0;;Billed;
+ACFC;NEW;2014-07-07 04:28:43;0;;HB;;A;;I;ResA;;1;0;1;;;0;0;;In progress;
+ACFC;FIN;2015-07-07 00:02:12;0;;HB;;A;;I;ResA;A;1;0;1;;;0;0;;Closed;
+ACFC;RELEASE;2015-07-07 05:53:09;0;;HB;;A;;I;ResA;A;1;0;1;;;0;0;;Released;
+ACFC;CODE NOK;2015-07-22 06:39:03;0;W;HB;E;A;0;I;ResA;A;1;0;1;0;0;0;0;1.0;Released;A
+ACFC;EMPTY;2015-07-22 14:28:34;0;W;HB;E;A;0;I;ResSB;A;1;0;1;0;0;0;0;1.0;Empty;A
