@@ -17,10 +17,9 @@
     This file is modified:
     - added DataPetriNet to the imports
     - added get_variable_by_name function
-    Author: Zsuzsanna Nagy
     - added SKIP to the imports
-    - added functions such as sync_product_net_place_belongs_to_process_net, ...
-    Author: ...
+    - added functions sync_product_net_place_belongs_to_process_net, ...
+    Author: Zsuzsanna Nagy
 '''
 import random
 import time
